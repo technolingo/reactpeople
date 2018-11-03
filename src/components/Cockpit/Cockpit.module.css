@@ -1,0 +1,24 @@
+.button {
+  background-color: green;
+  color: white;
+  min-height: 3rem;
+  margin-bottom: 12px;
+}
+
+.button:hover {
+  background-color: lightgreen;
+}
+
+.dismiss {
+  background-color: red;
+}
+
+.dismiss:hover {
+  background-color: salmon;
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: 200px;
+  }
+}
